@@ -6,9 +6,21 @@
 
 https://julia.quantecon.org/getting_started_julia/getting_started.html
 
-```
-brew install julia
-```
+
+*  MacOS
+
+   ```
+   brew install julia
+   ```
+
+* Linux
+
+   ```
+   wget https://julialang-s3.julialang.org/bin/linux/x64/1.9/julia-1.9.4-linux-x86_64.tar.gz
+   tar zxvf julia-1.9.4-linux-x86_64.tar.gz
+   export PATH="$PATH:/path/to/<Julia directory>/bin"
+   ```
+
 
 In the terminal type `julia` to open the julia prompt
 
@@ -21,9 +33,14 @@ In the terminal type `julia` to open the julia prompt
  _/ |\__'_|_|_|\__'_|  |  Built by Homebrew (v1.9.4)
 |__/                   |
 
-julia> using Pkg
-julia> Pkg.add("IJulia") 
 ```
 
+* able the jupyter in VSCode, install `ipykernel` in your python environment.
 
+```julia
+using Pkg
+Pkg.add("IJulia")
+# Pkg.rm("IJulia")
+```
 
+https://github.com/microsoft/vscode-jupyter/issues/13493
