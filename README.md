@@ -1,5 +1,11 @@
 # mml-book-julia
 
+This is a Julia version of the book [Mathematics for Machine Learning](https://mml-book.github.io/). 
+
+## Pre-requisites
+
+Who already familiar with python.
+
 ## Julia
 
 * Using version 1.94
