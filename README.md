@@ -6,6 +6,13 @@ This is a Julia version of the book [Mathematics for Machine Learning](https://m
 
 Who already familiar with python.
 
+Cell presentation
+please select `text/plain` or `text/markdown`.
+
+Or change it default from settings.
+
+<img src='./notebooks/figs/00-display.png' width=50%>
+
 ## Julia
 
 * Using version 1.94
